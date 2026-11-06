@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "uid": "string",
+        "fullName": "string",
+        "email": "string",
+        "photoURL": "string?",
+        "age": "number",
+        "height": "number",
+        "weight": "number",
+        "gender": "string?",
+        "fitnessGoal": "string",
+        "preferredActivity": "string",
+        "createdAt": "timestamp?",
+        "updatedAt": "timestamp?"
+      }
+    },
+    "Activity": {
+      "collection": "activities",
+      "fields": {
+        "userId": "string",
+        "date": "string",
+        "steps": "number",
+        "distance": "number",
+        "caloriesBurned": "number",
+        "activeMinutes": "number",
+        "source": "string",
+        "createdAt": "timestamp?",
+        "updatedAt": "timestamp?"
+      }
+    },
+    "Workout": {
+      "collection": "workouts",
+      "fields": {
+        "workoutId": "string",
+        "userId": "string",
+        "workoutName": "string",
+        "category": "string",
+        "duration": "number",
+        "caloriesBurned": "number",
+        "intensity": "string",
+        "date": "string",
+        "startTime": "string",
+        "endTime": "string",
+        "notes": "string?",
+        "createdAt": "timestamp?"
+      }
+    },
+    "Goal": {
+      "collection": "goals",
+      "fields": {
+        "goalId": "string",
+        "userId": "string",
+        "goalType": "string",
+        "targetValue": "number",
+        "currentValue": "number",
+        "period": "string",
+        "startDate": "string",
+        "endDate": "string?",
+        "isCompleted": "boolean",
+        "createdAt": "timestamp?"
+      }
+    },
+    "WorkoutPlan": {
+      "collection": "workout_plans",
+      "fields": {
+        "planId": "string",
+        "userId": "string",
+        "planName": "string",
+        "description": "string",
+        "difficulty": "string",
+        "exercises": "array",
+        "duration": "number",
+        "createdAt": "timestamp?"
+      }
+    },
+    "Reminder": {
+      "collection": "reminders",
+      "fields": {
+        "reminderId": "string",
+        "userId": "string",
+        "reminderType": "string",
+        "reminderTime": "string",
+        "isEnabled": "boolean",
+        "createdAt": "timestamp?"
+      }
+    },
+    "Achievement": {
+      "collection": "achievements",
+      "fields": {
+        "achievementId": "string",
+        "userId": "string",
+        "achievementName": "string",
+        "description": "string",
+        "icon": "string",
+        "achievedAt": "timestamp?"
+      }
+    },
+    "WeightRecord": {
+      "collection": "weight_history",
+      "fields": {
+        "recordId": "string",
+        "userId": "string",
+        "weight": "number",
+        "date": "string",
+        "createdAt": "timestamp?"
+      }
+    }
+  }
+}

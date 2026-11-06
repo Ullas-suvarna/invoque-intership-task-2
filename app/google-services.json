@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "971957999384",
+    "firebase_url": "https://health-fitness-app-8ecb7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "health-fitness-app-8ecb7",
+    "storage_bucket": "health-fitness-app-8ecb7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971957999384:android:77d88ceb4508203d08706d",
+        "android_client_info": {
+          "package_name": "com.company.HealthFitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971957999384-d4lkjp99inmgm99ejiurqipoliulvehs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgrAvEuzJo1ZFwMcnIMpQv_Z2rCnP9O6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971957999384-d4lkjp99inmgm99ejiurqipoliulvehs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

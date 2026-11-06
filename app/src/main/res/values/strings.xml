@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FitPulse</string>
+    <string name="firestore_database_id">(default)</string>
+</resources>
